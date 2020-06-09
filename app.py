@@ -61,6 +61,14 @@ def predict():
         dic['Category']=nutrition_df.loc[i]['Category']
         dic['Brand']=nutrition_df.loc[i]['Brand']
         dic['FoodName']=nutrition_df.loc[i]['FoodName']
+        
+        dic['Alcohol']=nutrition_df.loc[i]['Alcohol']
+        dic['Caffeine']=nutrition_df.loc[i]['Caffeine']
+        dic['Swimming']=nutrition_df.loc[i]['Swimming']
+        dic['Cycling']=nutrition_df.loc[i]['Cycling']
+        dic['Jogging']=nutrition_df.loc[i]['Jogging']
+        dic['Walking']=nutrition_df.loc[i]['Walking']
+
 
         temp.append(dic)
 
