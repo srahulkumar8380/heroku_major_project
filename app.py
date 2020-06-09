@@ -41,6 +41,8 @@ def predict():
     lis.append(int(request.json['Iron']))
     lis.append(int(request.json['VitaminA']))
     lis.append(int(request.json['VitaminC']))
+    lis.append(int(request.json['Alcohol']))
+    lis.append(int(request.json['Caffeine']))
     
     t.append(lis)
     #t=[[48.2, 180, 4.5, 150, 28, 0,10,0.22,0.26,0.009,3,0.036]]
